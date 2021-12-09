@@ -1,0 +1,18 @@
+{
+    "manifest_version" :2,
+    "version":"1.0",
+    "name" : "QR generator",
+    "description" : "QR generator for current tab",
+    "icons":{
+        "121":"./images/image2.png"
+    },
+    "browser_action":{
+        "default_popup":"popup.html",
+        "defualt_icon":"./images/image2.jpg",
+        "default_title":"QR generator"
+    },
+    "permissions":[
+        "activeTab"
+        
+    ]
+}
